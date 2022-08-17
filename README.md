@@ -1,4 +1,4 @@
-# Melody of Memory Mods
+# Melody of Memory: Final Mix
 A collection of simple mods using MelonLoader. The most notable of these mods is the [OnlineMod](https://github.com/WaterKH/MelodyOfMemoryMods/edit/main/README.md#onlinemod), which allows people to play with their friends regardless of rating and without accidentally matching with someone else.
 
 
