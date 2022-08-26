@@ -56,6 +56,10 @@ namespace BattleRoyaleMod
             __instance._battleRoyalButton.active = true;
             //__instance._battleRoyalButton.SetActive(true);
             //__instance._battleRoyalButton.SetActiveRecursively(true);
+            GameSceneFlowManager.instance.OnSceneLoad(Game.Define.GameScene.BattleVsTop, Game.Define.GameScene.BattleRoyal);
+
+
+
 
             __instance._localButton.active = true;
             //__instance._localButton.SetActive(true);
@@ -63,11 +67,6 @@ namespace BattleRoyaleMod
 
             BuildSettings._platform = Game.Define.Platform.Switch;
 
-            FileLog.Log("TopButtonUpdate");
-            foreach (var info in __instance._buttonInfo)
-            {
-                FileLog.Log($"GameObject {info.name}: Name = {info.gameObject.scene.name}; Path: {info.gameObject.scene.path}");
-            }
             //AssetBundleManager.LoadAssetBundle("");
             //AssetBundleManager.LoadAssetBundle("regioncommon/languagecommon/battleroyal");
             //AssetBundleManager.LoadAssetBundle("regioncommon/languagecommon/battleroyalmatchsetting");
