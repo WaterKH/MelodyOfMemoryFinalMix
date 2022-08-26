@@ -1,9 +1,19 @@
-# Melody of Memory Mods
+# Melody of Memory: Final Mix
 A collection of simple mods using MelonLoader. The most notable of these mods is the [OnlineMod](https://github.com/WaterKH/MelodyOfMemoryMods/edit/main/README.md#onlinemod), which allows people to play with their friends regardless of rating and without accidentally matching with someone else.
 
 
 ## How to Install
 You will first need to setup MelonLoader for Kingdom Hearts Melody of Memory. To do this, please follow their guide for [Getting Started with MelonLoader](https://melonwiki.xyz/#/README). Once this is complete, run the game once to generate the Mods folder in the root directory where your 'KINGDOM HEARTS Melody of Memory.exe' is located. Place any of the mods (dlls) contained within the [Latest Release](https://github.com/WaterKH/MelodyOfMemoryMods/releases) into your Mods folder. Close and re-launch the game and verify that a MelonLoader console window shows up - This window should also indicate whether any mods were not loaded correctly.
+
+
+## How to Modify
+If you want to customize your experience with these mods, you can download this repository. Verify that you have .NET Framework 4.7.2 installed as well as Visual Studio 2019. Make any change you want to the variables being reassigned in the Patch files. For instance, if you want to give more health to Sora per Glide Note, then modify line 28 of MelodyOfMemoryMods/GlideHealthMod/GlideHealthMod.cs:
+
+```
+MusicStagePlayData.SetRecovery(0, 0.35f);
+```
+
+Once you have made this change, Re-Build the project and locate the GlideHealthMod.dll in the following path: GlideHealthMod\obj\Release - Basically, whichever mod you modify, find the obj folder, and then the dll you are looking for will either be in Debug or Release. Drop this new mod into the Mods folder to start playing with your newly modified mod!
 
 
 ## How to Contribute
