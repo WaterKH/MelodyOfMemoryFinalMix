@@ -27,7 +27,7 @@ namespace RemoveTimingGuidesMod
         }
     }
 
-    [HarmonyPatch(typeof(TimingGuidePool), nameof(TimingGuidePool.Activate), new Type[] { typeof(BossTimingGuideType), typeof(bool), typeof(StandardTriggerController) })]
+    [HarmonyPatch(typeof(TimingGuidePool), nameof(TimingGuidePool.Activate), new Type[] { typeof(BossTimingGuideType), typeof(bool), typeof(BossTriggerController) })]
     class MusicStageTriggerBossPatch
     {
         static void Prefix(ref BossTimingGuideType timingGuideType, ref bool enableCursor, BossTriggerController triggerController)
@@ -40,7 +40,7 @@ namespace RemoveTimingGuidesMod
         }
     }
 
-    [HarmonyPatch(typeof(TimingGuidePool), nameof(TimingGuidePool.Activate), new Type[] { typeof(EventTimingGuideType), typeof(bool), typeof(StandardTriggerController) })]
+    [HarmonyPatch(typeof(TimingGuidePool), nameof(TimingGuidePool.Activate), new Type[] { typeof(EventTimingGuideType), typeof(bool), typeof(EventTriggerController) })]
     class MusicStageTriggerBossEventPatch
     {
         static void Prefix(ref EventTimingGuideType timingGuideType, ref bool enableCursor, EventTriggerController triggerController)

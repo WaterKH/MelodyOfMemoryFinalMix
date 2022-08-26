@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvisibleTrickMod", "Invisi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerformerEverywhereMod", "PerformerEverywhereMod\PerformerEverywhereMod.csproj", "{19285F32-46DC-41A0-A2EF-CA1CF526084C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BattleRoyaleMod", "BattleRoyaleMod\BattleRoyaleMod.csproj", "{EA72F3A5-72CF-498B-B65A-00B620D1A8DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecryptBypassMod", "DecryptBypassMod\DecryptBypassMod.csproj", "{F68B74DE-B3CC-47C3-B45C-2F5E3B80359F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{19285F32-46DC-41A0-A2EF-CA1CF526084C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19285F32-46DC-41A0-A2EF-CA1CF526084C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19285F32-46DC-41A0-A2EF-CA1CF526084C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA72F3A5-72CF-498B-B65A-00B620D1A8DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA72F3A5-72CF-498B-B65A-00B620D1A8DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA72F3A5-72CF-498B-B65A-00B620D1A8DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA72F3A5-72CF-498B-B65A-00B620D1A8DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F68B74DE-B3CC-47C3-B45C-2F5E3B80359F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F68B74DE-B3CC-47C3-B45C-2F5E3B80359F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F68B74DE-B3CC-47C3-B45C-2F5E3B80359F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F68B74DE-B3CC-47C3-B45C-2F5E3B80359F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
